@@ -11,9 +11,9 @@
       ]
     },
     methods: {
-      addItem: function(e){
-        e.preventDefault();
-        this.todos.push(this.newItem);
+      addItem: function(){
+        this.todos.push(this.newItem),
+        this.newItem = ''
       }
     }
   });
