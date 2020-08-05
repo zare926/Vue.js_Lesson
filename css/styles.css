@@ -18,6 +18,11 @@ body {
   line-height: 1.5;
 }
 
+#app ul {
+  padding: 0;
+  list-style: none;
+}
+
 #app input[type="text"] {
   padding: 2px;
 }
@@ -26,4 +31,9 @@ body {
   font-size: 12px;
   cursor: pointer;
   color: #08c;
+}
+
+#app li>span.done {
+  text-decoration: line-through;
+  color: #bbb;
 }
